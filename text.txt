@@ -26,3 +26,34 @@ Efter utbildningen
 Det är stor efterfrågan på webbutvecklare och webbdesigners. Branschen bedöms växa med 20 procent de kommande åren och den ökande e-handeln bidrar kraftigt. Behovet av duktiga webbutvecklare är därför stort. Denna utbildning ger dig de kunskaper som marknaden vill ha.
 
 "Webbutveckling är den perfekta balansen mellan logik och kreativitet". - Marie Francesca Michl
+
+Lägg till lämpliga rubriker, med en logisk rubrikstruktur i HTML.
+Infoga bilderna där det är lämpligt (alla bilder ska användas).
+Skriv relevanta alt-texter till bilderna.
+Använd minst en punktlista för att lyfta fram vissa delar ur texten.
+https://internetstiftelsen.se/app/uploads/2021/01/att-skriva-for-webben.pdf
+
+
+Delar i texten så som rubriker, ingresser och citat ska särskiljas från övrig text.
+
+Ingress
+De flesta texter mår bra av en inledande sammanfattning. Undantaget är texter som är mycket korta (färre än fem meningar är ett
+bra riktmärke). I ingressen tar man med de viktigaste upplysningarna från resten av texten, av två orsaker: dels för att läsarna ska få
+veta något bara genom att läsa ingressen, dels för att visa vad som
+beskrivs utförligare för den som läser vidare.
+Kanske minst 3 typsnitt.
+
+Tillräckliga kontraster.
+Något neutralt färg som inte stör alldeles så mycket för en person med synskadad eller färgblind.
+
+Semantiska element ska användas.
+<header> <main> <footer>
+
+Dynamiska mått ska användas för text i stilmallen.
+Använd lämplig radlängd samt radavstånd.
+En extern tjänst för teckensnitt ska användas, till exempel Google Fonts.
+vad menas det med extern tjänst för teckensnittet som ska användas? Är det så att man ska använda något annat typsnitt involerad?
+Webbplatsen är responsiv och fungerar för olika enheter.
+
+RWD ska finnas med, dvs (desktop, surfplatta och mobil)
+https://coder-coder.com/media-query-breakpoints/
