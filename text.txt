@@ -27,9 +27,15 @@ Det är stor efterfrågan på webbutvecklare och webbdesigners. Branschen bedöm
 
 "Webbutveckling är den perfekta balansen mellan logik och kreativitet". - Marie Francesca Michl
 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
 Lägg till lämpliga rubriker, med en logisk rubrikstruktur i HTML.
+
 Infoga bilderna där det är lämpligt (alla bilder ska användas).
+
 Skriv relevanta alt-texter till bilderna.
+
 Använd minst en punktlista för att lyfta fram vissa delar ur texten.
 https://internetstiftelsen.se/app/uploads/2021/01/att-skriva-for-webben.pdf
 
@@ -50,9 +56,13 @@ Semantiska element ska användas.
 <header> <main> <footer>
 
 Dynamiska mått ska användas för text i stilmallen.
+
 Använd lämplig radlängd samt radavstånd.
+
 En extern tjänst för teckensnitt ska användas, till exempel Google Fonts.
 vad menas det med extern tjänst för teckensnittet som ska användas? Är det så att man ska använda något annat typsnitt involerad?
+
+
 Webbplatsen är responsiv och fungerar för olika enheter.
 
 RWD ska finnas med, dvs (desktop, surfplatta och mobil)
