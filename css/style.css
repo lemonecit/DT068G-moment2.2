@@ -104,6 +104,16 @@ text-transform: uppercase;
 
         } 
 
+
+        .pointbreak {
+            margin-top:20px;
+            margin-bottom:20px;
+            display: block;
+            font-weight: bold;
+            font-size:20px;
+
+        }
+
         .citat_layout {
             margin-top:20px;
             margin-bottom:20px;
