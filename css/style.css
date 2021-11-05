@@ -1,13 +1,139 @@
 
+body {
+
+margin: 0px;
+padding:0px;
+width:100%;
+font-family: 'Heebo', sans-serif;
+}
+
 
 /* For devices with width of 480px and less, like phones */
 @media only screen and (max-width: 480px) {
 
     body {
-
-        background-color:red;
+   
+   
         
         }
+
+        .mobile_menu {
+            width:100%;
+            text-align: center;
+            background-color:#590004;
+            color:white;
+            height:40px;
+
+
+        }
+
+        aside.header_img {
+
+            display: none;
+
+        }
+
+        .header_mainMain {
+
+            display: none;
+
+        }
+
+
+        h1 {
+font-size:48px;
+text-align: center;
+text-transform: uppercase;
+border-top:2px solid black;
+
+
+        }
+
+        .h2_rubrik {
+            font-size:24px;
+            background-color:#FCBA04;
+            line-height:1.8em;
+            width: 100%;
+            margin:0;
+            padding:0;
+            height:50px;
+            text-align: center;
+
+        }
+
+        main article img {
+           margin-top: 20px;
+            /* calc(96px + (102 - 96) * ((100vw - 550px) / (550 - 300))) */
+            width: calc(425px + (480 - 425) * ((100vw - 480px) / (550 - 480)));
+            margin:auto;
+            display: block;
+        }
+
+        main {
+
+            width:90%;
+            margin-right:auto;
+            margin-left:auto;
+
+
+        }
+
+        .part_articleI p {
+            font-size:20px;
+            padding:20px;
+
+        }
+
+     
+
+
+        p {
+            padding: 0;
+            margin:0;
+            line-height:1.4em;
+            font-weight: 400;
+
+        }
+
+    
+
+        .moreDetails {
+            margin-top:20px;
+            margin-bottom:20px;
+            padding:20px;
+            color:white;
+            background-color: #590004;
+
+
+        } 
+
+        .citat_layout {
+            margin-top:20px;
+            margin-bottom:20px;
+            width:80%;
+            margin-right:auto;
+            margin-left:auto;
+
+        }
+
+        .citat_layout img {
+
+            text-align: center;
+        }
+
+        .citat_img {
+
+            width: 100%;
+            margin: auto;
+            display: block;
+
+        }
+        cite {
+            font-size:14px;
+            
+
+        }
+
         
 
 
