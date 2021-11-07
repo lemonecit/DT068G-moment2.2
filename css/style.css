@@ -18,6 +18,8 @@ font-family: 'Heebo', sans-serif;
             background-color:#590004;
             color:white;
             height:40px;
+            position:fixed;
+            top:0;
 
 
         }
@@ -153,39 +155,47 @@ text-transform: uppercase;
     
 
         .mobile_menu {
-            display: none;
-
+          
+            width: 100%;
+            text-align: center;
+            background-color: #590004;
+            color: white;
+            height: 40px;
+            position: fixed;
+            top: 0;
 
         }
 
         aside.header_img {
-            width:70%;
-            float:right;
+            width:100%;
+            /* float:right; */
 
         }
 
         .header_img img {
             width: 100%;
-            height: 200px;      ;
+            /* height: 200px;   */
             /* width: calc(425px + (480 - 425) * ((100vw - 480px) / (550 - 480))); */
 
 
-        }
+        } 
 
 
 
 
         .header_menu {
-          
+        
             margin:0;
             padding:0;
-            width:30%;
-            float:left;
+            width:100%;
+         
         }
 
 
 
         .header_mainMain {
+
+            display:none;
             width:100%;
          
       
@@ -342,7 +352,7 @@ text-transform: uppercase;
 
     body {
 
-        background-color:red;
+        background-color:yellow;
         
         }
 
@@ -578,10 +588,9 @@ text-transform: uppercase;
         }
 
         .header_img img {
-            position:absolute; 
-            bottom:300px;
+         
             
-            background-size:cover;
+      
             height:auto;
             width: 100%;
             /* height: 200px;      ; */
@@ -670,12 +679,13 @@ text-transform: uppercase;
             /* calc(96px + (102 - 96) * ((100vw - 550px) / (550 - 300))) */
             width: calc(425px + (480 - 425) * ((100vw - 480px) / (550 - 480)));
             margin:auto;
-            display: block;
+            display:unset;
+          
         }
 
         main {
 
-            width:90%;
+            width:70%;
             margin-right:auto;
             margin-left:auto;
 
@@ -745,6 +755,25 @@ text-transform: uppercase;
         cite {
             font-size:14px;
             
+
+        }
+
+        .sammankomster_image {
+
+            float:left;
+            
+
+
+        }
+
+        .sammankomster_image img {
+
+            width:50%;
+        }
+
+        .moreDetails {
+            width:50%;
+            float:left;
 
         }
         
