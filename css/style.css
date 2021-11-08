@@ -38,6 +38,7 @@ font-family: 'Heebo', sans-serif;
 
 
         h1 {
+            margin-top:65px;
              /* calc(96px + (102 - 96) * ((100vw - 550px) / (550 - 300))) */
 font-size: calc(46px + (55 - 46) * ((100vw - 480px) / (480 - 320)));
 text-align: center;
@@ -759,7 +760,7 @@ text-transform: uppercase;
         }
 
         .sammankomster_image {
-
+            width:45%;
             float:left;
             
 
@@ -768,10 +769,11 @@ text-transform: uppercase;
 
         .sammankomster_image img {
 
-            width:50%;
+            width:100%;
         }
 
         .moreDetails {
+            margin:0;
             width:50%;
             float:left;
 
