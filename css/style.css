@@ -591,7 +591,16 @@ float:none;
 /* For devices with width of 1280px and more, like desktop computers */
 @media only screen and (min-width: 1050px) {
 
-    h1,h2,h3,h4,h5,h6 {
+
+    h1{ 
+        line-height:4em;
+        padding:0;
+        margin:0;
+
+
+    }
+
+ h2,h3,h4,h5,h6 {
         line-height:2em;
         padding:0;
         margin:0;
@@ -682,6 +691,7 @@ float:none;
         }
 
         nav ul li {
+            padding:20px;
             display: inline;
             background-color:#590004;
             height:40px;
@@ -691,6 +701,7 @@ float:none;
         }
 
         nav ul li a {
+            padding:55px;
             color:white;
 text-decoration: none;
 
@@ -717,7 +728,7 @@ text-decoration: none;
             font-size:24px;
             background-color:#FCBA04;
             line-height:2.1em;
-            width: 55%;
+            width: 100%;
             margin:0;
             padding:0;
             height:50px;
@@ -749,6 +760,8 @@ text-decoration: none;
         .part_articleI p {
             font-size:20px;
             padding:20px;
+            font-weight:400;
+            line-height:1.7em;
 
         }
 
@@ -762,13 +775,6 @@ text-decoration: none;
             font-weight: 400;
 
         }
-
-        .a {
-
-            width:48%;
-
-        }
-
     
 
         .moreDetails {
@@ -779,6 +785,7 @@ text-decoration: none;
             padding:20px;
             color:white;
             background-color: #590004;
+            /* background-color:#005959; */
 
 
         } 
