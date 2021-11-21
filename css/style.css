@@ -66,7 +66,9 @@ text-transform: uppercase;
         main article img {
           
             /* calc(96px + (102 - 96) * ((100vw - 550px) / (550 - 300))) */
-            width: calc(425px + (480 - 425) * ((100vw - 480px) / (550 - 480)));
+            /* width: calc(425px + (480 - 425) * ((100vw - 480px) / (550 - 480))); */
+           
+            width: calc(415px + (480 - 415) * ((100vw - 480px) / (550 - 480)));
             margin:auto;
             display: block;
         }
@@ -266,7 +268,8 @@ text-transform: uppercase;
         main article img {
            margin-top: 20px;
             /* calc(96px + (102 - 96) * ((100vw - 550px) / (550 - 300))) */
-            width: calc(425px + (480 - 425) * ((100vw - 480px) / (550 - 480)));
+            /* width: calc(450px + (650 - 450) * ((100vw - 450px) / (735 - 450))); */
+            width: calc(391px + (781 - 528) * ((100vw - 450px) / (735 - 450)));
             margin:auto;
             display: block;
         }
@@ -496,7 +499,9 @@ text-transform: uppercase;
         main article img {
            margin-top: 20px;
             /* calc(96px + (102 - 96) * ((100vw - 550px) / (550 - 300))) */
-            width: calc(425px + (480 - 425) * ((100vw - 480px) / (550 - 480)));
+            /* width: calc(425px + (480 - 425) * ((100vw - 480px) / (550 - 480))); */
+            /* width: calc(769px + (1172 - 789) * ((100vw - 875px) / (1164 - 757))); */
+            width: calc(675px + (907 - 675) * ((100vw - 769px) / (1020 - 769)));
             margin:auto;
             display: block;
         }
@@ -652,13 +657,14 @@ float:none;
             /* width:65%; */
             display:block;
             margin:0 auto;
+            background-color: #cfb9b0;
 
         }
 
         .header_img img {
             
             margin-top:0px;
-      
+            background: #ccbaac;
             height:530px;
             /* width: 70%; */
             /* height: 200px;      ; */
@@ -678,8 +684,10 @@ float:none;
 
 
         .header_mainMain {
-        width:100%;
+            margin:0 auto;
+        width: 100%;
         display: block;
+        background-color:red;
 
         }
 
@@ -691,17 +699,17 @@ float:none;
         }
 
         nav ul li {
-            padding:20px;
+            /* padding:20px; */
             display: inline;
-            background-color:#590004;
-            height:40px;
+            /* background-color:#590004; */
+            /* height:40px; */
             list-style: none;
-            line-height:40px;
+            /* line-height:40px; */
 
         }
 
         nav ul li a {
-            padding:55px;
+            /* padding:55px; */
             color:white;
 text-decoration: none;
 
