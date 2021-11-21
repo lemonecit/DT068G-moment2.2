@@ -627,10 +627,10 @@ float:none;
     footer{ 
         margin-top:80px;
         line-height:90px;
-        color:white;
+        color:black;
         height:100px; 
         clear:both; 
-        background-color:#590004;
+        background-color:#FCBA04;
         text-align:center;
         }
 
@@ -662,7 +662,9 @@ float:none;
         }
 
         .header_img img {
-            
+
+          
+            box-shadow:  1px 0px 20px 5px #00000080;
             margin-top:0px;
             background: #ccbaac;
             height:530px;
@@ -684,36 +686,47 @@ float:none;
 
 
         .header_mainMain {
+            /* height:75px; */
             margin:0 auto;
         width: 100%;
         display: block;
-        background-color:red;
+        background-color:#fcba04;
+        /* background: #000; */
+        height: 60px; /* set same as height & line-height below */
 
-        }
-
-        nav ul {
-
-            margin:0;
-            padding:0;
-            text-align:center;
-        }
-
-        nav ul li {
-            /* padding:20px; */
-            display: inline;
-            /* background-color:#590004; */
-            /* height:40px; */
+        } 
+    
+       
+          
+          /* This rule centers the nav items verticaly in the bar with the height and line height properties. Spacing between the nav items is controlled by setting right and left padding.  */
+          .header_mainMain li {
+              color:white;
+              background-color:black;
+            display: inline-block;
             list-style: none;
-            /* line-height:40px; */
+            height: 60px; /* should be the same as line-height */
+            line-height: 60px; /* should be the same as height */
+            padding: 0 40px; /* "0" sets top and bottom padding to none */
+          }
+          
+          /* :hover allows you change the background color of the nav items when you mouse over them. Play around with the transition value to change the speed of the hover transition. */
+          .header_mainMain li:hover {
+            
+            background-color:white;
+            /* transition: background .3s; */
+          }
 
-        }
 
-        nav ul li a {
-            /* padding:55px; */
-            color:white;
-text-decoration: none;
+          .header_mainMain li a:hover {
+            color:black;
 
-        }
+          }
+          
+          /* This rule is applied to the link <a> tag. It lets you turn off the link underline and set the link text color. */
+          .nav-link {
+            color: #fff;
+            text-decoration: none;
+          }
 
 
         .header_mobile {
@@ -758,18 +771,35 @@ text-decoration: none;
 
         main {
 
-            width:60%;
+            width:100%;
             margin-right:auto;
             margin-left:auto;
 
 
         }
 
+        .part_articleI {
+
+            width:60%;
+            margin-right:auto;
+            margin-left:auto;
+
+        }
+
+        .part_articleII {
+
+            width:60%;
+            margin-right:auto;
+            margin-left:auto;
+
+        }
+
+
         .part_articleI p {
             font-size:20px;
             padding:20px;
             font-weight:400;
-            line-height:1.7em;
+            line-height:1.8em;
 
         }
 
@@ -786,13 +816,14 @@ text-decoration: none;
     
 
         .moreDetails {
+            box-shadow: -1px -1px 20px 1px black;
             /* width:80%; */
             /* float:right; */
             margin-top:20px;
             margin-bottom:20px;
             padding:20px;
-            color:white;
-            background-color: #590004;
+            color:black;
+            background: #ccbaac;
             /* background-color:#005959; */
 
 
@@ -816,23 +847,38 @@ text-decoration: none;
         }
 
         .citat_layout {
+            height:auto;
+            background: #ccbaac;
+            z-index: 1;
             text-align:center;
             margin-top:20px;
             margin-bottom:20px;
-            width:80%;
+            width:100%;
             margin-right:auto;
             margin-left:auto;
 
         }
 
+
+        .citat_text {
+            margin-top:30px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 63%;
+        }
+
         .citat_layout img {
+         
+            box-shadow: -1px -1px 20px 1px black;
 
             text-align: center;
         }
 
         .citat_img {
-
-            width: 62%;
+            position:relative;
+            top:20px;
+            padding:10px;
+            width: 31%;
             margin: auto;
             display: block;
 
