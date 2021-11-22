@@ -8,6 +8,8 @@ font-family: 'Heebo', sans-serif;
 }
 
 
+
+
 /* For devices with width of 480px and less, like phones */
 @media only screen and (max-width: 480px) {
 
@@ -17,12 +19,12 @@ font-family: 'Heebo', sans-serif;
         .mobile_menu {
             width:100%;
             text-align: center;
-            background-color:#590004;
+       
             color:white;
             height:40px;
             position:fixed;
             top:0;
-
+            background-color:#fcba04;
 
         }
 
@@ -163,8 +165,9 @@ text-transform: uppercase;
           
             width: 100%;
             text-align: center;
-            background-color: #590004;
-            color: white;
+            background-color:#fcba04;
+            color: black;
+            font-weight:bold;
             height: 40px;
             position: fixed;
             top: 0;
@@ -306,8 +309,8 @@ text-transform: uppercase;
             margin-top:20px;
             margin-bottom:20px;
             padding:20px;
-            color:white;
-            background-color: #590004;
+            color:black;
+            background: #ccbaac;
 
 
         } 
@@ -545,8 +548,8 @@ float:none;
             margin-top:20px;
             margin-bottom:20px;
             padding:20px;
-            color:white;
-            background-color: #590004;
+            color:black;
+            background: #ccbaac;
 
 
         } 
@@ -595,6 +598,23 @@ float:none;
 
 /* For devices with width of 1280px and more, like desktop computers */
 @media only screen and (min-width: 1050px) {
+
+    #navbar {
+        z-index: 100;
+        overflow: hidden;
+        background-color:#FCBA04;
+      }
+      
+
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+      
+      .sticky + .content {
+        padding-top: 60px;
+      }
 
 
     h1{ 
@@ -698,7 +718,6 @@ float:none;
     
        
           
-          /* This rule centers the nav items verticaly in the bar with the height and line height properties. Spacing between the nav items is controlled by setting right and left padding.  */
           .header_mainMain li {
               color:white;
               background-color:black;
@@ -711,17 +730,14 @@ float:none;
           
           /* :hover allows you change the background color of the nav items when you mouse over them. Play around with the transition value to change the speed of the hover transition. */
           .header_mainMain li:hover {
-            
-            background-color:white;
-            /* transition: background .3s; */
+            font-weight: bold;
+    color: black;
+    background-color: #cfb9b0;
+    transition: background .3s;
           }
 
 
-          .header_mainMain li a:hover {
-            color:black;
-
-          }
-          
+    
           /* This rule is applied to the link <a> tag. It lets you turn off the link underline and set the link text color. */
           .nav-link {
             color: #fff;

@@ -14,6 +14,7 @@
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;900&display=swap" rel="stylesheet">
             <link rel="stylesheet" href="css/style.css">
+            <script type="text/javascript" src="js/custom.js"></script>
     </head>
 <body>
 
@@ -22,7 +23,7 @@
             <select class="mobile_menu">
                 <option value="Startsidan">Startsidan</option>
             </select>
-            <nav class="header_mainMain">
+            <nav id="navbar" class="header_mainMain">
                 <ul>
                     <li><a href="">Startsidan</a></li>
                     <li><a href="">Startsidan</a></li>
@@ -141,6 +142,21 @@
 
 
     <footer>Pierre LEMON</footer>
+
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+        </script>
     
 </body>
 </html>
