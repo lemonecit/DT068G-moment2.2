@@ -20,7 +20,7 @@ font-family: 'Heebo', sans-serif;
             width:100%;
             text-align: center;
        
-            color:white;
+            color:black;
             height:40px;
             position:fixed;
             top:0;
@@ -107,8 +107,8 @@ text-transform: uppercase;
             margin-top:20px;
             margin-bottom:20px;
             padding:20px;
-            color:white;
-            background-color: #590004;
+            color:black;
+            background: #ccbaac;
 
 
         } 
