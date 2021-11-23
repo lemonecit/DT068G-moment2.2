@@ -13,6 +13,22 @@ font-family: 'Heebo', sans-serif;
 /* For devices with width of 480px and less, like phones */
 @media only screen and (max-width: 480px) {
 
+
+ 
+ 
+
+    footer {
+        font-size: 14px;
+        margin-top: 40px;
+        line-height: 49px;
+        color: black;
+        height: 45px;
+        clear: both;
+        background-color: #FCBA04;
+        text-align: center;
+        font-weight: 700;
+    }
+
        
 
 
@@ -158,8 +174,19 @@ text-transform: uppercase;
 /* For devices with width between 481px and 770px, like larger phones and portrait tablets */
 @media only screen and (min-width: 481px) {
 
-
     
+
+    footer {
+        font-size: 14px;
+        margin-top: 40px;
+        line-height: 49px;
+        color: black;
+        height: 45px;
+        clear: both;
+        background-color: #FCBA04;
+        text-align: center;
+        font-weight: 700;
+    }
 
         .mobile_menu {
           
@@ -373,6 +400,19 @@ text-transform: uppercase;
         
         } */
 
+     
+
+        footer {
+            font-size: 14px;
+            margin-top: 40px;
+            line-height: 49px;
+            color: black;
+            height: 45px;
+            clear: both;
+            background-color: #FCBA04;
+            text-align: center;
+            font-weight: 700;
+        }
 
         .citat_text {
             margin-left:auto;
