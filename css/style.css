@@ -677,8 +677,7 @@ body {
     
     
        
-    
-       
+        
         footer{ 
             margin-top:50px;
             line-height:90px;
@@ -694,7 +693,6 @@ body {
         body {
     
             background-color:white;
-            
             }
     
     
@@ -791,7 +789,9 @@ body {
                 }
     
             .h2_rubrik {
-                font-size:24px;
+                /* font-size: calc(24px + (32 - 24) * ((100vw - 1000px) / (1100 - 1000))); */
+                font-size: calc(24px + (26 - 24) * ((100vw - 770px) / (1400 - 770)));
+                /* font-size:24px; */
                 background-color:#FCBA04;
                 line-height:2.1em;
                 width: 100%;
@@ -825,7 +825,7 @@ body {
     
             .part_articleI {
     
-                width:60%;
+                width:55%;
                 margin-right:auto;
                 margin-left:auto;
     
@@ -833,7 +833,7 @@ body {
     
             .part_articleII {
     
-                width:60%;
+                width:55%;
                 margin-right:auto;
                 margin-left:auto;
     
@@ -841,7 +841,9 @@ body {
     
     
             .part_articleI p {
-                font-size:20px;
+                font-size: calc(20px + (26 - 20) * ((100vw - 770px) / (1600 - 770)));
+
+                /* font-size:20px; */
                 padding:20px;
                 font-weight:400;
                 line-height:1.8em;
@@ -856,6 +858,8 @@ body {
                 margin:0;
                 line-height:1.4em;
                 font-weight: 400;
+                font-size: calc(20px + (26 - 20) * ((100vw - 770px) / (1600 - 770)));
+
     
             }
         
@@ -878,11 +882,13 @@ body {
     
     
             .pointbreak {
+                font-size: calc(30px + (32 - 30) * ((100vw - 770px) / (1200 - 770)));
+                /* font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300))); */
                 margin-top: 40px;
                 margin-bottom: 40px;
                 display: block;
                 font-weight: bolder;
-                font-size: 30px;
+                /* font-size: 30px; */
                 width: 65%;
                 text-align: center;
          
