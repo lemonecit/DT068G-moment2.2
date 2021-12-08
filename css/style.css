@@ -294,14 +294,15 @@ body {
                margin-top: 20px;
                 /* calc(96px + (102 - 96) * ((100vw - 550px) / (550 - 300))) */
                 /* width: calc(450px + (650 - 450) * ((100vw - 450px) / (735 - 450))); */
-                width: calc(391px + (781 - 528) * ((100vw - 450px) / (735 - 450)));
+                /* width: calc(391px + (781 - 528) * ((100vw - 450px) / (735 - 450))); */
                 margin:auto;
                 display: block;
+                width:100%;
             }
     
             main {
     
-                width:90%;
+                width:75%;
                 margin-right:auto;
                 margin-left:auto;
     
@@ -431,12 +432,20 @@ body {
     
             }
     
-            .mobile_menu {
-                display: none;
     
+
+            .mobile_menu {
+                width:100%;
+                text-align: center;
+           
+                color:black;
+                height:40px;
+                position:fixed;
+                top:0;
+                background-color:#fcba04;
     
             }
-    
+
     
             .header_img img {
                 margin-top:0;
@@ -547,7 +556,8 @@ body {
                 /* calc(96px + (102 - 96) * ((100vw - 550px) / (550 - 300))) */
                 /* width: calc(425px + (480 - 425) * ((100vw - 480px) / (550 - 480))); */
                 /* width: calc(769px + (1172 - 789) * ((100vw - 875px) / (1164 - 757))); */
-                width: calc(520px + (520 - 360) * ((100vw - 780px) / (1020 - 780)));
+                /* width: calc(520px + (520 - 360) * ((100vw - 780px) / (1020 - 780))); */
+                width:100%;
                 margin:auto;
                 display: block;
             }
@@ -915,7 +925,7 @@ body {
                 margin-top:30px;
                 margin-left: auto;
                 margin-right: auto;
-                width: 63%;
+                width: 30%;
             }
     
             .citat_layout img {
@@ -946,7 +956,9 @@ body {
             }
     
             cite {
-                font-size:14px;
+                font-size: calc(14px + (18 - 14) * ((100vw - 770px) / (1600 - 770)));
+
+                /* font-size:14px; */
                 
     
             }
