@@ -442,7 +442,7 @@ body {
                 margin-top:0;
                 width: 100%;
                 /* height: 200px;      ; */
-                /* width: calc(425px + (480 - 425) * ((100vw - 480px) / (550 - 480))); */
+                /* width: calc(800px + (1020 - 1000) * ((100vw - 769px) / (1020 - 769))); */
     
     
             }
@@ -547,14 +547,14 @@ body {
                 /* calc(96px + (102 - 96) * ((100vw - 550px) / (550 - 300))) */
                 /* width: calc(425px + (480 - 425) * ((100vw - 480px) / (550 - 480))); */
                 /* width: calc(769px + (1172 - 789) * ((100vw - 875px) / (1164 - 757))); */
-                width: calc(675px + (907 - 675) * ((100vw - 769px) / (1020 - 769)));
+                width: calc(520px + (520 - 360) * ((100vw - 780px) / (1020 - 780)));
                 margin:auto;
                 display: block;
             }
     
             main {
     
-                width:90%;
+                width:70%;
                 margin-right:auto;
                 margin-left:auto;
     
@@ -722,7 +722,7 @@ body {
                 height:530px;
                 /* width: 70%; */
                 /* height: 200px;      ; */
-                width: calc(1000px + (1100 - 1000) * ((100vw - 1000px) / (1000 - 600)));
+                width: calc(1000px + (1100 - 1000) * ((100vw - 770px) / (1900 - 770)));
     
     
             }
@@ -808,7 +808,7 @@ body {
             main article img {
                margin-top: 20px;
                 /* calc(96px + (102 - 96) * ((100vw - 550px) / (550 - 300))) */
-                width: calc(425px + (480 - 425) * ((100vw - 480px) / (550 - 480)));
+                width: calc(425px + (480 - 425) * ((100vw - 770px) / (1900 - 770)));
                 margin:auto;
                 display:unset;
               
@@ -964,7 +964,7 @@ body {
                 padding:20px;
                 height:auto;
                 /* width:100%; */
-                width: calc(300px + (350 - 300) * ((100vw - 1000px) / (1000 - 600)));
+                width: calc(300px + (350 - 300) * ((100vw - 770px) / (1900 - 770)));
             }
     
          
