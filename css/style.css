@@ -283,7 +283,7 @@ body {
             .h2_rubrik {
                 font-size:24px;
                 background-color:#FCBA04;
-                line-height:1.8em;
+                line-height:2.1em;
                 width: 100%;
                 margin:0;
                 padding:0;
@@ -313,7 +313,7 @@ body {
             }
     
             .part_articleI p {
-                font-size: calc(20px + (26 - 20) * ((100vw - 380px) / (700 - 380)));
+                font-size: calc(20px + (22 - 20) * ((100vw - 380px) / (700 - 380)));
 
                 /* font-size:20px; */
                 padding:20px;
@@ -328,7 +328,7 @@ body {
                 margin:0;
                 line-height:1.4em;
                 font-weight: 400;
-                font-size: calc(20px + (26 - 20) * ((100vw - 380px) / (700 - 380)));
+                font-size: calc(20px + (22 - 20) * ((100vw - 380px) / (700 - 380)));
 
     
             }
@@ -548,7 +548,7 @@ body {
             .h2_rubrik {
                 font-size:24px;
                 background-color:#FCBA04;
-                line-height:1.8em;
+                line-height:2.1em;
                 width: 100%;
                 margin:0;
                 padding:0;
@@ -579,7 +579,7 @@ body {
             }
     
             .part_articleI p {
-                font-size: calc(20px + (26 - 20) * ((100vw - 489px) / (790 - 489)));
+                font-size: calc(20px + (22 - 20) * ((100vw - 489px) / (790 - 489)));
 
                 /* font-size:20px; */
                 padding:20px;
@@ -590,7 +590,7 @@ body {
     
     
             p {
-                font-size: calc(20px + (26 - 20) * ((100vw - 770px) / (1600 - 770)));
+                font-size: calc(20px + (22 - 20) * ((100vw - 770px) / (1600 - 770)));
 
                 padding: 0;
                 margin:0;
@@ -828,6 +828,7 @@ body {
 
             h3 {
 
+                font-size: calc(22px + (24 - 22) * ((100vw - 770px) / (1400 - 770)));
 
 
             }
@@ -869,12 +870,12 @@ body {
     
     
             .part_articleI p {
-                font-size: calc(20px + (26 - 20) * ((100vw - 770px) / (1600 - 770)));
+                font-size: calc(20px + (22 - 20) * ((100vw - 770px) / (1600 - 770)));
 
                 /* font-size:20px; */
                 padding:20px;
                 font-weight:400;
-                line-height:1.8em;
+                line-height:1.6em;
     
             }
     
@@ -884,9 +885,9 @@ body {
             p {
                 padding: 0;
                 margin:0;
-                line-height:1.4em;
+                line-height:1.6em;
                 font-weight: 400;
-                font-size: calc(20px + (26 - 20) * ((100vw - 770px) / (1600 - 770)));
+                font-size: calc(20px + (22 - 20) * ((100vw - 770px) / (1600 - 770)));
 
     
             }
